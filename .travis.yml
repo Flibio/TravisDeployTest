@@ -7,4 +7,4 @@ script:
 - 'git clone https://github.com/Flibio/TravisDeployTest.git'
 - 'dir'
 - 'cd TravisDeployTest'
-- 'git ftp init --user ${FTP_USER} --passwd ${FTP_PASS} ftp://ftp.flibio.net'
+- 'git ftp init --user ${FTP_USER} --passwd ${FTP_PASS} ftp://ftp.flibio.net/travis'
